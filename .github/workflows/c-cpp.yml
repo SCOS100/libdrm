@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: install
-      run: sudo apt install xutils-dev
+      run: sudo apt install xutils-dev libpciacess-dev
     - name: autogen
       run: ./autogen.sh
     - name: configure
